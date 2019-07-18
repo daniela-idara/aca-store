@@ -5,10 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>My Store</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="index.css">
    
 </head>
 <body>
+        <div id="signup">
+            <span><b>Welcome to ACA-Store</b></span><br><br>
+                Email <input id="email" > <br>
+                Password <input id="password" type="password"> <br>
+                 <button type="button" id="btnSignUp" onClick="signUp()">Sign Up</button>
+       </div>
+
+        <div id="wrapper" style="display:none">
+            <div id="home" onClick="goBack()">Home</div>
+            <div><input type="text" id="search" oninput = "searchFunc()"/><div>
+            <div id="cart"></div>
+                
+        
+            <span ><button id='cartBtn' onClick="showCart()"><b>VIEW CART &#128722</b>(0)</button></span>
+            
+            <div id="products"></div>
+            <div id="totalPrice"></div>
+        </div>
+
+        
+
      <script src="products.js"></script>    
     <script src="index.js"></script>   
+    <!-- <script src="../test.js"></script> -->
 </body>
 </html>

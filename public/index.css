@@ -1,0 +1,56 @@
+body {
+    background-color: yellow;
+    margin: 0 auto;
+    font-family: 'Oxygen', sans-serif;
+}
+
+#search, #cart, #cartBtn, #home {
+    margin-left: 50px;
+    
+}
+
+#empty, #totalPrice {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#eachTotal {
+    font-weight: bold;
+}
+
+#signup {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#home {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#products {
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#productCard {
+    padding: 20px;
+    background-color: rgb(224, 222, 222);
+    border: 5px solid black;
+    height: 100%;
+    width: 300px;
+    margin: 5px;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
